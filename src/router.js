@@ -6,6 +6,7 @@ import Test from '@/components/Test'
 Vue.use(Router)
 
 export const router = new Router({
+  mode: 'abstract',
   routes: [
     {
       path: '/',

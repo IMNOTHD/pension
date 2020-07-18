@@ -46,6 +46,11 @@ export default {
       console.log(index)
     },
     wxcButtonClicked (e) {
+      let modal = weex.requireModule('modal')
+      modal.toast({
+        message: 'This is a toast',
+        duration: 0.3
+      })
       this.$router.push('/test')
     }
   }

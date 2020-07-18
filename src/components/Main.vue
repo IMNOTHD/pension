@@ -4,8 +4,7 @@
                  title-type="icon"
                  @wxcTabBarCurrentTabSelected="wxcTabBarCurrentTabSelected">
         <!-- 第一个页面内容-->
-        <div class="item-container" :style="contentStyle"><wxc-button text="确定"
-                                                                      @wxcButtonClicked="wxcButtonClicked"></wxc-button></div>
+        <div class="item-container" :style="contentStyle"><HomePage></HomePage></div>
         <!-- 第二个页面内容-->
         <div class="item-container" :style="contentStyle"><text>发现</text></div>
         <!-- 第三个页面内容-->
@@ -24,11 +23,14 @@
 <script>
 import { WxcTabBar, Utils, WxcButton } from 'weex-ui'
 // https://github.com/alibaba/weex-ui/blob/master/example/tab-bar/config.js
+
 import Config from './config'
 import Main from '@/components/Main'
+import HomePage from '@/components/HomePage/HomePage'
+
 export default {
   name: 'App',
-  components: { Main, WxcTabBar, WxcButton },
+  components: { HomePage, Main, WxcTabBar, WxcButton },
   data: () => ({
     tabTitles: Config.tabTitles,
     tabStyles: Config.tabStyles

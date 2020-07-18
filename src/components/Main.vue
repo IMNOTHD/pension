@@ -9,7 +9,7 @@
         <!-- 第二个页面内容-->
         <div class="item-container" :style="contentStyle"><text>发现</text></div>
         <!-- 第三个页面内容-->
-        <div class="item-container" :style="contentStyle"><text>我的</text></div>
+        <div class="item-container" :style="contentStyle"><Me /></div>
     </wxc-tab-bar>
 </template>
 
@@ -18,7 +18,6 @@
         width: 750px;
         background-color: #f2f3f4;
         align-items: center;
-        justify-content: center;
     }
 </style>
 <script>
@@ -26,9 +25,10 @@ import { WxcTabBar, Utils, WxcButton } from 'weex-ui'
 // https://github.com/alibaba/weex-ui/blob/master/example/tab-bar/config.js
 import Config from './config'
 import Main from '@/components/Main'
+import Me from '@/components/Me/Me'
 export default {
   name: 'App',
-  components: { Main, WxcTabBar, WxcButton },
+  components: { Main, WxcTabBar, WxcButton, Me },
   data: () => ({
     tabTitles: Config.tabTitles,
     tabStyles: Config.tabStyles

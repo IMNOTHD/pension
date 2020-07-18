@@ -3,10 +3,10 @@
     <div class="container">
         <scroller class="scroller">
             <div class="btn" @click="showListCity">
-                <text class="btn-txt" v-if="!currentCity">定位</text>
+                <text class="btn-txt" v-if="!currentCity" style="display:flex;justify-content: center;align-items: center">定位</text>
             </div>
             <div class="panel">
-                <text v-if="currentCity" class="text">{{currentCity.cityName}}</text>
+                <text v-if="currentCity" class="text" style="display:flex;justify-content: center;align-items: center">{{currentCity.cityName}}</text>
             </div>
         </scroller>
         <wxc-city ref="wxcCity"

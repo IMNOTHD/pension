@@ -1,6 +1,6 @@
 <template>
     <!--定位-->
-    <div>
+    <div class="container">
         <scroller class="scroller">
             <div class="btn" @click="showListCity">
                 <text class="btn-txt" v-if="!currentCity">定位</text>

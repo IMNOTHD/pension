@@ -8,7 +8,7 @@
         <!-- 第二个页面内容-->
         <div class="item-container" :style="contentStyle"><text>发现</text></div>
         <!-- 第三个页面内容-->
-        <div class="item-container" :style="contentStyle"><text>我的</text></div>
+        <div class="item-container" :style="contentStyle"></div>
     </wxc-tab-bar>
 </template>
 
@@ -17,7 +17,6 @@
         width: 750px;
         background-color: #f2f3f4;
         align-items: center;
-        justify-content: center;
     }
 </style>
 <script>
@@ -27,7 +26,6 @@ import { WxcTabBar, Utils, WxcButton } from 'weex-ui'
 import Config from './config'
 import Main from '@/components/Main'
 import HomePage from '@/components/HomePage/HomePage'
-
 export default {
   name: 'App',
   components: { HomePage, Main, WxcTabBar, WxcButton },

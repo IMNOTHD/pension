@@ -1,7 +1,6 @@
 <template>
     <div class="container">
         <wxc-searchbar ref="wxc-searchbar"
-                       @wxcSearchbarCancelClicked="wxcSearchbarCancelClicked"
                        @wxcSearchbarInputReturned="wxcSearchbarInputReturned"
                        @wxcSearchbarInputOnInput="wxcSearchbarInputOnInput"
                        @wxcSearchbarCloseClicked="wxcSearchbarCloseClicked"

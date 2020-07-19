@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7f61855-701d-448b-87f7-701386e06de5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.temp/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/search.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595127894991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修复了一些对不齐的问题">
+      <created>1595137915926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595137915926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +149,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some Change" />
     <MESSAGE value="修复了底边栏和滚动问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了底边栏和滚动问题" />
+    <MESSAGE value="修复了一些对不齐的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了一些对不齐的问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1956" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595134324371">
@@ -153,30 +161,30 @@
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="418" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.768@0.0.1360.768" timestamp="1595093463312" />
-    <state x="-1797" y="-5" key="CommitChangelistDialog2" timestamp="1595127893468">
+    <state x="-1797" y="-5" key="CommitChangelistDialog2" timestamp="1595137913246">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
-    <state x="-1797" y="-5" key="CommitChangelistDialog2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595127893468" />
-    <state width="2254" height="352" key="GridCell.Tab.0.bottom" timestamp="1595135698759">
+    <state x="-1797" y="-5" key="CommitChangelistDialog2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595137913246" />
+    <state width="2254" height="352" key="GridCell.Tab.0.bottom" timestamp="1595138745969">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state width="1638" height="458" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595004354937" />
-    <state width="2254" height="352" key="GridCell.Tab.0.bottom/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135698759" />
-    <state width="2254" height="352" key="GridCell.Tab.0.center" timestamp="1595135698759">
+    <state width="2254" height="352" key="GridCell.Tab.0.bottom/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595138745969" />
+    <state width="2254" height="352" key="GridCell.Tab.0.center" timestamp="1595138745969">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state width="1638" height="458" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595004354935" />
-    <state width="2254" height="352" key="GridCell.Tab.0.center/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135698759" />
-    <state width="2254" height="352" key="GridCell.Tab.0.left" timestamp="1595135698759">
+    <state width="2254" height="352" key="GridCell.Tab.0.center/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595138745969" />
+    <state width="2254" height="352" key="GridCell.Tab.0.left" timestamp="1595138745968">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state width="1638" height="458" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595004354935" />
-    <state width="2254" height="352" key="GridCell.Tab.0.left/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135698759" />
-    <state width="2254" height="352" key="GridCell.Tab.0.right" timestamp="1595135698759">
+    <state width="2254" height="352" key="GridCell.Tab.0.left/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595138745968" />
+    <state width="2254" height="352" key="GridCell.Tab.0.right" timestamp="1595138745969">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state width="1638" height="458" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595004354936" />
-    <state width="2254" height="352" key="GridCell.Tab.0.right/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135698759" />
+    <state width="2254" height="352" key="GridCell.Tab.0.right/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595138745969" />
     <state x="-2137" y="27" width="1694" height="779" key="MergeDialog" timestamp="1595135347746">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
@@ -185,14 +193,14 @@
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state x="-1563" y="141" key="RollbackChangesDialog/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595124763446" />
-    <state x="-1819" y="140" key="Vcs.Push.Dialog.v2" timestamp="1595127897339">
+    <state x="-1819" y="140" key="Vcs.Push.Dialog.v2" timestamp="1595137951514">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
-    <state x="-1819" y="140" key="Vcs.Push.Dialog.v2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595127897339" />
-    <state x="-1609" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595135920703">
+    <state x="-1819" y="140" key="Vcs.Push.Dialog.v2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595137951514" />
+    <state x="-1609" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595138714677">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
-    <state x="-1609" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135920703" />
+    <state x="-1609" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595138714677" />
     <state x="-1707" y="123" width="590" height="594" key="find.popup" timestamp="1595127201099">
       <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>

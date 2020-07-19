@@ -89,6 +89,7 @@ export default {
         flex-wrap: wrap;
         flex-direction: row;
         margin-top: 80px;
+        align-items: center;
     }
     .second-function-detail{
         margin-left: 50px;

@@ -6,7 +6,6 @@
                        @wxcSearchbarCloseClicked="wxcSearchbarCloseClicked"
                        @wxcSearchbarInputOnFocus="wxcSearchbarInputOnFocus"
                        @wxcSearchbarInputOnBlur="wxcSearchbarInputOnBlur"></wxc-searchbar>
-        <text class="value-text">{{value}}</text>
     </div>
 </template>
 

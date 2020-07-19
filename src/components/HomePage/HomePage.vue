@@ -2,17 +2,14 @@
     <div class="item-container">
         <list ref="scroller">
             <cell>
-                <!--搜索框、定位以及信息提示服务-->
-                <div class="top-function" style="width: 720px;display: flex; flex-wrap: wrap; flex-direction: row;margin-top: 20px">
-                    <div class="top-function-location" style="width: 80px;">
-                        <!--定位-->
-                        <location></location>
+                <div style="width: 750px; flex-wrap: wrap; flex-direction: row;">
+                    <div style="width: 70px; align-items: center; justify-content: center; margin-left: 20px">
+                        <text style="font-size: 30px">定位</text>
                     </div>
-                    <div class="top-function-search" style="width: 580px;">
-                        <!--搜索框-->
-                        <search style="width: 580px;"></search>
+                    <div style="width: 580px">
+                        <search />
                     </div>
-                    <div class="top-function-information" >
+                    <div style="width: 79px; align-items: center; justify-content: center">
                         <!--消息-->
                         <img src="https://i.loli.net/2020/07/19/MfYz2JC8uFeVQ4L.png" style="width: 50px; height: 50px">
                     </div>
@@ -32,7 +29,7 @@
                 <div class="second-function" >
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/cCMdhF1SeraHxkW.png" style="width: 120px;height: 120px">
-                        <text>惠民政策</text>
+                        <text style="width: 120px; text-align: center; margin-top: 10px;">惠民政策</text>
                     </div>
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/nh5FugobmJyAVfR.png" style="width: 120px;height: 120px">
@@ -56,6 +53,9 @@
                     <img src="https://i.loli.net/2020/07/19/lHEyea8buBcI1Ko.png" style="width: 500px;height: 500px;margin-top: 20px">
                 </div>
             </cell>
+            <cell>
+                <div class="padding"></div>
+            </cell>
         </list>
     </div>
 </template>
@@ -76,6 +76,10 @@ export default {
     .item-container{
         background-color: white;
         align-items: center;
+    }
+    .padding {
+        width: 750px;
+        height: 150px;
     }
     .first-function{
         width: 750px;

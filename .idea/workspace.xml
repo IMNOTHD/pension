@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e4509e3-383e-41ce-894a-42542a114521" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Me/Me.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.temp/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Test.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+    <list default="true" id="b7f61855-701d-448b-87f7-701386e06de5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/search.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,10 +38,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Hds" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eozKDPk6aFcQZUeQsmfX37KjLn" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -72,6 +75,15 @@
       <recent name="$PROJECT_DIR$/src/components/HomePage" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -85,10 +97,35 @@
       <workItem from="1595002668825" duration="1299000" />
       <workItem from="1595034294153" duration="23357000" />
     </task>
+    <task id="LOCAL-00001" summary="Some Change">
+      <created>1595125051346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595125051346</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修复了底边栏和滚动问题">
+      <created>1595127894990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595127894991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -102,26 +139,67 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some Change" />
+    <MESSAGE value="修复了底边栏和滚动问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了底边栏和滚动问题" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="-1956" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595134324371">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
+    </state>
+    <state x="-1956" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595134324371" />
     <state x="418" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595093463312">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state x="418" y="138" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.768@0.0.1360.768" timestamp="1595093463312" />
-    <state width="1638" height="458" key="GridCell.Tab.0.bottom" timestamp="1595004354937">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="-1797" y="-5" key="CommitChangelistDialog2" timestamp="1595127893468">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
+    </state>
+    <state x="-1797" y="-5" key="CommitChangelistDialog2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595127893468" />
+    <state width="2254" height="352" key="GridCell.Tab.0.bottom" timestamp="1595135698759">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state width="1638" height="458" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595004354937" />
-    <state width="1638" height="458" key="GridCell.Tab.0.center" timestamp="1595004354935">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2254" height="352" key="GridCell.Tab.0.bottom/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135698759" />
+    <state width="2254" height="352" key="GridCell.Tab.0.center" timestamp="1595135698759">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state width="1638" height="458" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595004354935" />
-    <state width="1638" height="458" key="GridCell.Tab.0.left" timestamp="1595004354935">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2254" height="352" key="GridCell.Tab.0.center/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135698759" />
+    <state width="2254" height="352" key="GridCell.Tab.0.left" timestamp="1595135698759">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state width="1638" height="458" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595004354935" />
-    <state width="1638" height="458" key="GridCell.Tab.0.right" timestamp="1595004354936">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2254" height="352" key="GridCell.Tab.0.left/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135698759" />
+    <state width="2254" height="352" key="GridCell.Tab.0.right" timestamp="1595135698759">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
     </state>
     <state width="1638" height="458" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595004354936" />
+    <state width="2254" height="352" key="GridCell.Tab.0.right/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135698759" />
+    <state x="-2137" y="27" width="1694" height="779" key="MergeDialog" timestamp="1595135347746">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
+    </state>
+    <state x="-2137" y="27" width="1694" height="779" key="MergeDialog/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135347746" />
+    <state x="-1563" y="141" key="RollbackChangesDialog" timestamp="1595124763446">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
+    </state>
+    <state x="-1563" y="141" key="RollbackChangesDialog/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595124763446" />
+    <state x="-1819" y="140" key="Vcs.Push.Dialog.v2" timestamp="1595127897339">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
+    </state>
+    <state x="-1819" y="140" key="Vcs.Push.Dialog.v2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595127897339" />
+    <state x="-1609" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595135920703">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
+    </state>
+    <state x="-1609" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595135920703" />
+    <state x="-1707" y="123" width="590" height="594" key="find.popup" timestamp="1595127201099">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
+    </state>
+    <state x="-1707" y="123" width="590" height="594" key="find.popup/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595127201099" />
+    <state x="-1642" y="133" key="git4idea.branch.GitSmartOperationDialog" timestamp="1595134297653">
+      <screen x="-2560" y="-206" width="2297" height="1253" />
+    </state>
+    <state x="-1642" y="133" key="git4idea.branch.GitSmartOperationDialog/0.0.1723.930/-2560.-206.2297.1253@-2560.-206.2297.1253" timestamp="1595134297653" />
   </component>
 </project>

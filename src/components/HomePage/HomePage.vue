@@ -29,19 +29,19 @@
                 <div class="second-function" >
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/cCMdhF1SeraHxkW.png" style="width: 120px;height: 120px">
-                        <text style="width: 120px; text-align: center; margin-top: 15px;">惠民政策</text>
+                        <text style="width: 130px; text-align: center; margin-top: 15px;">惠民政策</text>
                     </div>
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/nh5FugobmJyAVfR.png" style="width: 120px;height: 120px">
-                        <text style="width: 120px; text-align: center; margin-top: 15px;">附近圈子</text>
+                        <text style="width: 130px; text-align: center; margin-top: 15px;">附近圈子</text>
                     </div>
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/iDF5fVEne7BL6d9.png" style="width: 120px;height: 120px">
-                        <text style="width: 120px; text-align: center; margin-top: 15px;">调查问卷</text>
+                        <text style="width: 130px; text-align: center; margin-top: 15px;">调查问卷</text>
                     </div>
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/2mMvnocH8Ou4ZyW.png" style="width: 120px;height: 120px">
-                        <text style="width: 120px; text-align: center; margin-top: 15px;">社区活动</text>
+                        <text style="width: 130px; text-align: center; margin-top: 15px;">社区活动</text>
                     </div>
                 </div>
             </cell>

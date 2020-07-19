@@ -43,6 +43,7 @@ export default {
     },
     citySelect (e) {
       this.currentCity = e.item
+      this.$store.commit('setCityName', this.currentCity.cityName)
     },
     onInput (e) {
     }

@@ -4,7 +4,7 @@
             <cell>
                 <div style="width: 750px; flex-wrap: wrap; flex-direction: row;">
                     <div style="width: 70px; align-items: center; justify-content: center; margin-left: 20px">
-                        <text style="font-size: 30px" @click="toLocation">{{cityName}}</text>
+                        <text style="font-size: 30px" @click="toLocation">{{$store.state.cityName}}</text>
                     </div>
                     <div style="width: 580px">
                         <search />
@@ -70,9 +70,6 @@ export default {
   data: () => ({
     cityName: '定位'
   }),
-  created () {
-    this.cityName = this.$router.params.cityName
-  },
   methods: {
     toLocation () {
       this.$router.push('/location')

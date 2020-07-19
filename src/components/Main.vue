@@ -6,7 +6,8 @@
         <!-- 第一个页面内容-->
         <div class="item-container" :style="contentStyle"><HomePage/></div>
         <!-- 第二个页面内容-->
-        <div class="item-container" :style="contentStyle"><Discovery/></div>
+        <div class="item-container" :style="contentStyle"><wxc-button text="确定"
+                                                                      @wxcButtonClicked="wxcButtonClicked"></wxc-button></div>
         <!-- 第三个页面内容-->
 
         <div class="item-container" :style="contentStyle"><Me /></div>
@@ -61,7 +62,7 @@ export default {
         message: 'This is a toast',
         duration: 0.3
       })
-      this.$router.push('/test')
+      this.$router.push('/location')
     }
   }
 }

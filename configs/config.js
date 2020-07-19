@@ -1,6 +1,6 @@
 const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
-const ip = require('ip').address();
+const ip = require('ip').address('以太网');
 const config = {
   root: ROOT,
   // webpack-dev-server

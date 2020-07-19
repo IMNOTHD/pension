@@ -5,8 +5,8 @@
                 <text>123</text>
             </div>
             <div style="flex-direction: row;">
-                <text class="iconfont-me" style="font-size: 75px; margin-right: 20px; margin-top: 20px">&#xe607;</text>
-                <text class="iconfont-me" style="font-size: 75px; margin-right: 20px; margin-top: 20px">&#xe600;</text>
+                <text class="iconfont-me" style="font-size: 75px; margin-right: 20px; margin-top: 20px; width: 80px;">&#xe607;</text>
+                <text class="iconfont-me" style="font-size: 75px; margin-right: 20px; margin-top: 20px; width: 80px;">&#xe600;</text>
             </div>
         </div>
 
@@ -98,6 +98,7 @@ export default {
         height:79px;
         padding-bottom: 10px;
         color:#666;
+        width: 80px;
     }
     .i-box-tlt{
         font-size: 26px;

@@ -9,8 +9,6 @@
         <div class="item-container" :style="contentStyle"><text>发现</text></div>
         <!-- 第三个页面内容-->
 
-        <div class="item-container" :style="contentStyle"></div>
-
         <div class="item-container" :style="contentStyle"><Me /></div>
 
     </wxc-tab-bar>

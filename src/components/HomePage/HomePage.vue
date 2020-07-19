@@ -1,7 +1,7 @@
 <template>
     <div class="item-container">
         <!--搜索框、定位以及信息提示服务-->
-        <div class="top-function" style="width: 720px;display: flex;flex-flow: row wrap;margin-top: 20px">
+        <div class="top-function" style="width: 720px;display: flex; flex-wrap: wrap; flex-direction: row;margin-top: 20px">
             <div class="top-function-location" style="width: 80px;">
                 <!--定位-->
                 <location></location>
@@ -16,7 +16,7 @@
             </div>
         </div>
 <!--        FirstFuntion-->
-        <div class="first-function" style="width: 720px;display: flex;flex-flow: row wrap;margin-top: 30px">
+        <div class="first-function" style="width: 720px;display: flex; flex-wrap: wrap; flex-direction: row;margin-top: 30px">
             <img src="https://i.loli.net/2020/07/19/fFmA2GXv9r7dioP.png" style="width: 150px ;height:180px;margin-left: 60px" />
             <img src="https://i.loli.net/2020/07/19/AGUzCfrm2WBiI9R.png" style="width: 150px ;height:180px;margin-left: 80px" />
             <img src="https://i.loli.net/2020/07/19/Ft76PA5RDILWj3d.png" style="width: 150px ;height:180px;margin-left: 80px" />
@@ -25,7 +25,7 @@
         <div class="separator" style="background-color: darkgrey;width: 720px;height: 2px;margin-top: 50px"></div>
 
         <!--SecondFunction-->
-        <div class="second-function" style="width: 720px;display: flex;flex-flow: row wrap;margin-top: 80px">
+        <div class="second-function" style="width: 720px;display: flex; flex-wrap: wrap; flex-direction: row;margin-top: 80px">
             <div class="second-function" style="margin-left: 50px">
                 <img src="https://i.loli.net/2020/07/19/cCMdhF1SeraHxkW.png" style="width: 120px;height: 120px">
                 <text>惠民政策</text>

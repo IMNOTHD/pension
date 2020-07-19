@@ -4,7 +4,7 @@ const webpackMerge = require('webpack-merge'); // used to merge webpack configs
 const chalk = require('chalk');
 const path = require('path');
 const webpack = require('webpack');
-const ip = require('ip').address();
+const ip = require('ip').address('以太网');
 
 /**
  * Webpack Plugins

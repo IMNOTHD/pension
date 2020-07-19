@@ -3,9 +3,10 @@
         <list ref="scroller">
             <cell>
                 <div style="width: 750px; flex-wrap: wrap; flex-direction: row;">
-                    <div style="width: 70px; align-items: center; justify-content: center; margin-left: 20px">
-                        <text style="font-size: 30px" >定位</text>
+                    <div @click="showListCity" style="width: 70px; align-items: center; justify-content: center; margin-left: 20px">
+                        <text style="font-size: 30px" >{{currentCity}}</text>
                     </div>
+
                     <div style="width: 580px">
                         <search />
                     </div>
@@ -61,14 +62,31 @@
 </template>
 <script>
 import { WxcSearchbar, WxcCity } from 'weex-ui'
-import Location from '@/components/HomePage/location'
 import Search from '@/components/HomePage/search'
+import sourceData from './data'
 
 export default {
   name: 'HomePage',
-  components: {Search, Location, WxcSearchbar, WxcCity},
+  components: {Search, WxcSearchbar, WxcCity},
   data: () => ({
-  })
+    currentCity: '定位',
+    sourceData,
+    cityStyleType: 'list'
+  }),
+  mounted () {
+    // 模拟定位
+    setTimeout(() => {
+      this.location = '杭州'
+    }, 500)
+  },
+  created: function () {
+    this.currentCity = this.$router.params.cityName
+  },
+  methods: {
+    showListCity () {
+      this.$router.push('/location')
+    }
+  }
 }
 </script>
 

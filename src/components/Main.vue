@@ -8,7 +8,6 @@
         <!-- 第二个页面内容-->
         <div class="item-container" :style="contentStyle"><Discovery/></div>
         <!-- 第三个页面内容-->
-
         <div class="item-container" :style="contentStyle"><Me /></div>
 
     </wxc-tab-bar>
@@ -35,9 +34,10 @@ import Main from '@/components/Main'
 import Me from '@/components/Me/Me'
 import HomePage from '@/components/HomePage/HomePage'
 import Discovery from '@/components/Discovery/Discovery'
+import Location from '@/components/HomePage/location'
 export default {
   name: 'App',
-  components: { Discovery, HomePage, Main, WxcTabBar, WxcButton, Me },
+  components: { Location, Discovery, HomePage, Main, WxcTabBar, WxcButton, Me },
   data: () => ({
     tabTitles: Config.tabTitles,
     tabStyles: Config.tabStyles,

@@ -8,7 +8,11 @@
         <!-- 第二个页面内容-->
         <div class="item-container" :style="contentStyle"><text>发现</text></div>
         <!-- 第三个页面内容-->
+
         <div class="item-container" :style="contentStyle"></div>
+
+        <div class="item-container" :style="contentStyle"><Me /></div>
+
     </wxc-tab-bar>
 </template>
 
@@ -25,10 +29,11 @@ import { WxcTabBar, Utils, WxcButton } from 'weex-ui'
 
 import Config from './config'
 import Main from '@/components/Main'
+import Me from '@/components/Me/Me'
 import HomePage from '@/components/HomePage/HomePage'
 export default {
   name: 'App',
-  components: { HomePage, Main, WxcTabBar, WxcButton },
+  components: { HomePage, Main, WxcTabBar, WxcButton, Me },
   data: () => ({
     tabTitles: Config.tabTitles,
     tabStyles: Config.tabStyles
@@ -46,6 +51,11 @@ export default {
       console.log(index)
     },
     wxcButtonClicked (e) {
+      let modal = weex.requireModule('modal')
+      modal.toast({
+        message: 'This is a toast',
+        duration: 0.3
+      })
       this.$router.push('/test')
     }
   }

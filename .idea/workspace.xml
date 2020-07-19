@@ -19,12 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="6e4509e3-383e-41ce-894a-42542a114521" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/components/Me/Me.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.temp/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.temp/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Test.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.vue" afterDir="false" />
+=======
+    <list default="true" id="b7f61855-701d-448b-87f7-701386e06de5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Discovery/Discovery.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Discovery/Discovery.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePage.vue" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

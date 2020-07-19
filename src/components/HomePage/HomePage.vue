@@ -4,7 +4,7 @@
             <cell>
                 <div style="width: 750px; flex-wrap: wrap; flex-direction: row;">
                     <div style="width: 70px; align-items: center; justify-content: center; margin-left: 20px">
-                        <text style="font-size: 30px">定位</text>
+                        <text style="font-size: 30px" >定位</text>
                     </div>
                     <div style="width: 580px">
                         <search />
@@ -29,19 +29,19 @@
                 <div class="second-function" >
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/cCMdhF1SeraHxkW.png" style="width: 120px;height: 120px">
-                        <text style="width: 130px; text-align: center; margin-top: 15px;">惠民政策</text>
+                        <text class="second-function-name">惠民政策</text>
                     </div>
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/nh5FugobmJyAVfR.png" style="width: 120px;height: 120px">
-                        <text style="width: 130px; text-align: center; margin-top: 15px;">附近圈子</text>
+                        <text class="second-function-name">附近圈子</text>
                     </div>
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/iDF5fVEne7BL6d9.png" style="width: 120px;height: 120px">
-                        <text style="width: 130px; text-align: center; margin-top: 15px;">调查问卷</text>
+                        <text class="second-function-name">调查问卷</text>
                     </div>
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/2mMvnocH8Ou4ZyW.png" style="width: 120px;height: 120px">
-                        <text style="width: 130px; text-align: center; margin-top: 15px;">社区活动</text>
+                        <text class="second-function-name">社区活动</text>
                     </div>
                 </div>
             </cell>
@@ -96,6 +96,11 @@ export default {
     }
     .second-function-detail{
         margin-left: 50px;
+    }
+    .second-function-name{
+        width: 130px;
+        text-align: center;
+        margin-top: 15px;
     }
     .separator{
         background-color: #F5F5F5;

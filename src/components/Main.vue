@@ -20,6 +20,11 @@
         background-color: #f2f3f4;
         align-items: center;
     }
+    >>> .tab-title-list {
+        position: fixed;
+        bottom: 0;
+        width: 750px;
+    }
 </style>
 <script>
 import { WxcTabBar, Utils, WxcButton } from 'weex-ui'
@@ -34,14 +39,15 @@ export default {
   components: { HomePage, Main, WxcTabBar, WxcButton, Me },
   data: () => ({
     tabTitles: Config.tabTitles,
-    tabStyles: Config.tabStyles
+    tabStyles: Config.tabStyles,
+    contentStyle: ''
   }),
   created () {
     const tabPageHeight = Utils.env.getPageHeight()
     // 如果页面没有导航栏，可以用下面这个计算高度的方法
     // const tabPageHeight = env.deviceHeight / env.deviceWidth * 750;
-    const { tabStyles } = this
-    this.contentStyle = { height: (tabPageHeight - tabStyles.height) + 'px' }
+    // const { tabStyles } = this
+    this.contentStyle = { height: (tabPageHeight) + 'px' }
   },
   methods: {
     wxcTabBarCurrentTabSelected (e) {

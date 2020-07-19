@@ -29,7 +29,7 @@
                 <div class="second-function" >
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/cCMdhF1SeraHxkW.png" style="width: 120px;height: 120px">
-                        <text style="width: 120px; text-align: center; margin-top: 10px;">惠民政策</text>
+                        <text>惠民政策</text>
                     </div>
                     <div class="second-function-detail">
                         <img src="https://i.loli.net/2020/07/19/nh5FugobmJyAVfR.png" style="width: 120px;height: 120px">

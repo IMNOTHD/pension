@@ -1,14 +1,7 @@
 <template>
     <!--定位-->
     <div class="container">
-        <scroller class="scroller">
-            <div class="btn" @click="showListCity">
-                <text class="btn-txt" v-if="!currentCity" style="display:flex;justify-content: center;align-items: center">定位</text>
-            </div>
-            <div class="panel">
-                <text v-if="currentCity" class="text" style="display:flex;justify-content: center;align-items: center">{{currentCity.cityName}}</text>
-            </div>
-        </scroller>
+
         <wxc-city ref="wxcCity"
                   :animationType="animationType"
                   :currentLocation="location"
@@ -32,20 +25,18 @@ export default {
     currentCity: '',
     sourceData,
     cityStyleType: 'list',
-    location: '定位中'
+    location: '定位中',
+    cityName: ''
   }),
   mounted () {
     // 模拟定位
     setTimeout(() => {
       this.location = '杭州'
     }, 500)
+    this.cityStyleType = 'list'
+    this.$refs['wxcCity'].show()
   },
   methods: {
-    // 定位功能的方法
-    showListCity () {
-      this.cityStyleType = 'list'
-      this.$refs['wxcCity'].show()
-    },
     showGroupCity () {
       this.cityStyleType = 'group'
       this.$refs['wxcCity'].show()

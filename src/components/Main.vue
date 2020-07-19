@@ -50,6 +50,7 @@ export default {
     // const tabPageHeight = env.deviceHeight / env.deviceWidth * 750;
     // const { tabStyles } = this
     this.contentStyle = { height: (tabPageHeight) + 'px' }
+
   },
   methods: {
     wxcTabBarCurrentTabSelected (e) {

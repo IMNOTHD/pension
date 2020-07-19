@@ -1,3 +1,4 @@
+import Vue from 'vue'
 /* global Vue */
 import Vuex from 'vuex'
 
